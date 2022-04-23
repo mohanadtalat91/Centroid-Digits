@@ -2,13 +2,18 @@
 
 ● At this repo we classify digits using KNN model
 algorithm.
+
 ● Firstly, we split the MNIST dataset into a test and training dataset
 according to (1000,10000) 10000 for training dataset and the
 other for tested dataset.
+
 ● We divided each digit into 4-grids (2x2) grid.
+
 ● Then we got the centroid of each divided grid of each digit.
+
 ● We put each centroid(x,y) into a list to train and predict the
 model.
+
 ● We compared the KNN model with different K-parameter to get
 the optimal one :
 
